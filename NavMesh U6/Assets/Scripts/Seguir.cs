@@ -34,10 +34,11 @@ public class Seguir : MonoBehaviour
             {
                 ultimaPosicionObjetivo = objetivo.position;
                 agente.SetDestination(objetivo.position);
-            }else if (!agente.isStopped)
-            {
-                agente.ResetPath();
             }
+        }
+        else if (!agente.isStopped)
+        {
+            agente.ResetPath();
         }
     }
 }
