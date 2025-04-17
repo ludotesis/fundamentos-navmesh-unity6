@@ -196,9 +196,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1780da127b4a7248a1c04f6e6c19a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &170104123 stripped
+--- !u!4 &116508536 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4297867272345064366, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
+  m_CorrespondingSourceObject: {fileID: 838573501173634587, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
+  m_PrefabInstance: {fileID: 1967452048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &175961192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4811707654516545254, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
   m_PrefabInstance: {fileID: 1967452048}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &330585543
@@ -459,11 +464,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!4 &512751526 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6434296286029548104, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-  m_PrefabInstance: {fileID: 1967452048}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,9 +513,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &910515078 stripped
+--- !u!4 &1768652946 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8230022145496788029, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3967788144972974817, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
   m_PrefabInstance: {fileID: 1967452048}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1967452048
@@ -596,7 +596,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.5
-  m_Speed: 3.5
+  m_Speed: 10
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -621,9 +621,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puntos:
-  - {fileID: 910515078}
-  - {fileID: 512751526}
-  - {fileID: 170104123}
+  - {fileID: 1768652946}
+  - {fileID: 175961192}
+  - {fileID: 116508536}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
