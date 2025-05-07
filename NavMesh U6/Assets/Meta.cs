@@ -11,7 +11,7 @@ public class Meta : MonoBehaviour
         {
             Debug.Log("GANASTE");
             GetComponent<Renderer>().material = winMaterial;
-            Invoke("ResetMaterial", 2);
+            Invoke(nameof(ResetMaterial), 2);
         }
     }
     void ResetMaterial()
