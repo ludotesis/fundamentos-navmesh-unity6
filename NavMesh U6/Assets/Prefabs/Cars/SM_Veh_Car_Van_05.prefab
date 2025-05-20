@@ -854,6 +854,8 @@ GameObject:
   - component: {fileID: 7712028411364756478}
   - component: {fileID: 7712028411363542692}
   - component: {fileID: 7774287239288613506}
+  - component: {fileID: 7334216438289276835}
+  - component: {fileID: 1193204457463837591}
   m_Layer: 0
   m_Name: SM_Veh_Car_Van_05
   m_TagString: Untagged
@@ -869,7 +871,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7712028411365858338}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7077324, z: -0, w: -0.7064806}
+  m_LocalRotation: {x: 0, y: -0.70772976, z: 0, w: 0.70648324}
   m_LocalPosition: {x: -1.7995949, y: 0, z: -5.2001877}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -884,7 +886,7 @@ Transform:
   - {fileID: 7712028411365512042}
   - {fileID: 7712028411365449710}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.101, z: 0}
 --- !u!33 &7712028411364756478
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -957,9 +959,48 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 97982d8a36ff16f4a88f291ef2443e49, type: 3}
+--- !u!195 &7334216438289276835
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7712028411365858338}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1
+  m_Speed: 15
+  m_Acceleration: 40
+  avoidancePriority: 50
+  m_AngularSpeed: 200
+  m_StoppingDistance: 3
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1193204457463837591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7712028411365858338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb167263034c3704d972143c13dc313e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &7712028411365860704
 GameObject:
   m_ObjectHideFlags: 0

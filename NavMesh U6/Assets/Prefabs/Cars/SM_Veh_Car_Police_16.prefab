@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 3321467094447557856}
   - component: {fileID: 3321467094446532464}
   - component: {fileID: 3385601422939368762}
+  - component: {fileID: 8039370828093057288}
   m_Layer: 0
   m_Name: SM_Veh_Car_Police_16
   m_TagString: Untagged
@@ -501,7 +502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3321467094444501654}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.25590917, z: -0, w: 0.9667009}
+  m_LocalRotation: {x: 0, y: 0.25590974, z: 0, w: 0.9667007}
   m_LocalPosition: {x: 6.910404, y: 0, z: 7.2998123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -515,7 +516,7 @@ Transform:
   - {fileID: 3321467094444766802}
   - {fileID: 3321467094444738470}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 29.655, z: 0}
 --- !u!33 &3321467094447557856
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -588,9 +589,25 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1b9e9f93cf8ada14b8dfb8c9c1b35002, type: 3}
+--- !u!208 &8039370828093057288
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3321467094444501654}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.0860001, y: 0.758, z: 2.624}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.984, z: 0.156}
+  m_TimeToStationary: 0.5
 --- !u!1 &3321467094444503422
 GameObject:
   m_ObjectHideFlags: 0

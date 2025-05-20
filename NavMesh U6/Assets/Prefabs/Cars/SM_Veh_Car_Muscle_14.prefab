@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 3214753511333138252}
   - component: {fileID: 3214753511332187844}
   - component: {fileID: 3204824801805708896}
+  - component: {fileID: 3280363400134668264}
   m_Layer: 0
   m_Name: SM_Veh_Car_Muscle_14
   m_TagString: Untagged
@@ -135,7 +136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3214753511329973484}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.00000077486027, z: -0, w: -1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -19.899593, y: 0, z: 22.099808}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -221,9 +222,25 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 823ed423ae6ba0d4589ddb8fe51e7f14, type: 3}
+--- !u!208 &3280363400134668264
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214753511329973484}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.215, y: 0.657, z: 2.821}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.837, z: 0.13000001}
+  m_TimeToStationary: 0.5
 --- !u!1 &3214753511329987612
 GameObject:
   m_ObjectHideFlags: 0

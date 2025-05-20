@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 6399996229622561473}
   - component: {fileID: 6399996229621396329}
   - component: {fileID: 6355948863488292545}
+  - component: {fileID: 8210250571524090872}
   m_Layer: 0
   m_Name: SM_Veh_Car_Taxi_33
   m_TagString: Untagged
@@ -135,7 +136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6399996229619367035}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.69859165, z: -0, w: -0.71552056}
+  m_LocalRotation: {x: 0, y: -0.69859016, z: 0, w: 0.7155221}
   m_LocalPosition: {x: -30.999592, y: 0, z: -30.50019}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -148,7 +149,7 @@ Transform:
   - {fileID: 6399996229619114849}
   - {fileID: 6399996229619093377}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -88.628, z: 0}
 --- !u!33 &6399996229622561473
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -221,9 +222,25 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: db57e923d75cb6c4e936d5e8caaa9165, type: 3}
+--- !u!208 &8210250571524090872
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6399996229619367035}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.0860001, y: 0.748, z: 2.5830002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.97400004, z: 0.115}
+  m_TimeToStationary: 0.5
 --- !u!1 &6399996229619400143
 GameObject:
   m_ObjectHideFlags: 0
