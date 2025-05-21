@@ -4158,8 +4158,8 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 224944339373059620, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_Convex
+    - target: {fileID: 3105762757009368278, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5113977149701132758, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
@@ -4169,14 +4169,14 @@ PrefabInstance:
     - target: {fileID: 5335885887252957528, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
       propertyPath: m_NavMeshData
       value: 
-      objectReference: {fileID: 23800000, guid: 0906ac29737eadb4bb4d9d3527ccc650, type: 2}
+      objectReference: {fileID: 23800000, guid: e872ea7b89843de4980b9e71b3c8cbe6, type: 2}
     - target: {fileID: 5335885887252957528, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_UseGeometry
+      propertyPath: m_BuildHeightMesh
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5335885887252957528, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_OverrideVoxelSize
-      value: 0
+      propertyPath: m_LayerMask.m_Bits
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 7766616522845605333, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4218,21 +4218,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9007071257559263367, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.498972
-      objectReference: {fileID: 0}
-    - target: {fileID: 9007071257559263367, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 39.38013
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 6609366816917709709, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-    - {fileID: 1091890179255621968, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-    - {fileID: 3345838665612948040, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-    - {fileID: 2725372963083102079, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-    - {fileID: 981530988403910420, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
