@@ -235,7 +235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3677781257353943076, guid: 9e17d660273e55640bd615d38f9b3fc7, type: 3}
       propertyPath: m_WalkableMask
-      value: 4294967295
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4162,30 +4162,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1498564995580699203, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_NavMeshData
-      value: 
-      objectReference: {fileID: 23800000, guid: 2159e7ae10b9e9e4cab0f2f411fdb6b2, type: 2}
-    - target: {fileID: 4724304696339839374, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -37
-      objectReference: {fileID: 0}
-    - target: {fileID: 4724304696339839374, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 12.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4923385069245775264, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_NavMeshData
-      value: 
-      objectReference: {fileID: 23800000, guid: 0906ac29737eadb4bb4d9d3527ccc650, type: 2}
     - target: {fileID: 5113977149701132758, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
       propertyPath: m_Name
       value: City
       objectReference: {fileID: 0}
-    - target: {fileID: 6420377045467095476, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
-      propertyPath: m_NavMeshData
-      value: 
-      objectReference: {fileID: 23800000, guid: 62a8289843c16b447b431a9fa801d883, type: 2}
     - target: {fileID: 7766616522845605333, guid: 28c9f972497a3db4caa7012ac0a51e0d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
