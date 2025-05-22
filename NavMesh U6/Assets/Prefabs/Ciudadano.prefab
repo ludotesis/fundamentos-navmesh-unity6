@@ -675,6 +675,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5219505724913292827}
+  - component: {fileID: 2411054153775975120}
+  - component: {fileID: 3127676880954778270}
   m_Layer: 0
   m_Name: Ciudadano
   m_TagString: Untagged
@@ -704,6 +706,41 @@ Transform:
   - {fileID: 6292693276450104939}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!195 &2411054153775975120
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5358906797823934379}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 32
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &3127676880954778270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5358906797823934379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd76b8ee2dbcf4be6998e917c65cd6ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Range: 25
 --- !u!1 &5401050951967737840
 GameObject:
   m_ObjectHideFlags: 0
